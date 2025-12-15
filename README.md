@@ -18,7 +18,7 @@ Improve claim-related decision-making
 
 **Dataset**
 
-Source: Excel / CSV file
+Source: Excel file
 
 Based on the Medical Cost Personal Dataset
 
@@ -39,7 +39,7 @@ Target variable: Insurance charges
 Problem type: Supervised Machine Learning – Regression
 
  **Methodology**
-1️. Data Exploration & Visualization
+1️. **Data Exploration & Visualization**
 
 Loaded and explored the dataset using Pandas
 
@@ -49,7 +49,7 @@ Visualized relationships between features and insurance charges
 
 Identified smoking status, age, and BMI as influential factors
 
-2️. Data Preprocessing
+2️. **Data Preprocessing**
 
 Verified absence of missing values
 
@@ -59,17 +59,17 @@ Removed less impactful features
 
 Applied standard scaling to normalize data
 
-3️.Feature Engineering
+3️.**Feature Engineering**
 
 Used Principal Component Analysis (PCA) for feature extraction and dimensionality reduction
 
-4️. Model Development
+4️. **Model Development**
 
 Built a Random Forest Regression model to predict insurance claim amounts
 
 Selected Random Forest due to its ability to model non-linear relationships
 
-5️. Model Evaluation
+5️. **Model Evaluation**
 
 Evaluated the model using:
 
@@ -81,7 +81,7 @@ R² Score
 
 Achieved an R² score of ~0.79
 
-6️. Prediction on New Data
+6️. **Prediction on New Data**
 
 Predicted insurance claim amounts for unseen customer inputs
 
