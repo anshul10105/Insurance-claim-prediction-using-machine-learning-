@@ -45,7 +45,7 @@ Loaded and explored the dataset using Pandas
 
 Performed exploratory data analysis (EDA) to understand data distribution
 
-Visualized relationships between features and insurance charges
+Visualized relationships between features and insurance charges.
 
 Identified smoking status, age, and BMI as influential factors
 
@@ -61,7 +61,7 @@ Applied standard scaling to normalize data
 
 3️.**Feature Engineering**
 
-Used Principal Component Analysis (PCA) for feature extraction and dimensionality reduction
+Used Principal Component Analysis (PCA) for feature extraction and dimensionality reduction but retained original feature due to  increase  in model performance
 
 4️. **Model Development**
 
@@ -79,7 +79,7 @@ Root Mean Squared Error (RMSE)
 
 R² Score
 
-Achieved an R² score of ~0.79
+Achieved an R² score of ~0.85
 
 6️. **Prediction on New Data**
 
