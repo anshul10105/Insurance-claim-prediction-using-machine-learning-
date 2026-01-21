@@ -24,17 +24,17 @@ Based on the Medical Cost Personal Dataset
 
 Features include:
 
-Age
+Age- Age of Policyholders
 
-Sex
+Sex- Gender 
 
-BMI
+BMI- Body Mass Index
 
-Number of children
+children-Number of dependants
 
-Smoking status
+Smoker-Smoking status
 
-Target variable: Insurance charges
+Target variable: Insurance charges- Insurance claim amount 
 
 Problem type: Supervised Machine Learning – Regression
 
@@ -61,7 +61,7 @@ Applied standard scaling to normalize data
 
 3️.**Feature Engineering**
 
-Used Principal Component Analysis (PCA) for feature extraction and dimensionality reduction but retained original feature due to  increase  in model performance
+Used Principal Component Analysis (PCA) during experimentation for feature extraction and dimensionality reduction but retained original feature due to better feature interpretability
 
 4️. **Model Development**
 
