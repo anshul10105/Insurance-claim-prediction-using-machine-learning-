@@ -61,7 +61,7 @@ Applied standard scaling to normalize data
 
 3️.**Feature Engineering**
 
-Used Principal Component Analysis (PCA) during experimentation for feature extraction and dimensionality reduction but retained original feature due to better feature interpretability
+Used Feature Engineering
 
 4️. **Model Development**
 
